@@ -44,6 +44,16 @@
     lockToDefault: false
     preRelease: Deprecated
     version: "1.32"
+- name: AllowServiceLBStatusOnNonLB
+  versionedSpecs:
+  - default: false
+    lockToDefault: false
+    preRelease: Deprecated
+    version: "1.29"
+  - default: false
+    lockToDefault: true
+    preRelease: Deprecated
+    version: "1.32"
 - name: AnonymousAuthConfigurableEndpoints
   versionedSpecs:
   - default: false
@@ -934,6 +944,10 @@
     lockToDefault: false
     preRelease: Alpha
     version: "1.30"
+  - default: true
+    lockToDefault: false
+    preRelease: Beta
+    version: "1.32"
 - name: ReloadKubeletServerCertificateFile
   versionedSpecs:
   - default: true
@@ -1218,6 +1232,12 @@
     lockToDefault: false
     preRelease: Alpha
     version: "1.31"
+- name: SystemdWatchdog
+  versionedSpecs:
+  - default: true
+    lockToDefault: false
+    preRelease: Beta
+    version: "1.32"
 - name: TopologyAwareHints
   versionedSpecs:
   - default: false
